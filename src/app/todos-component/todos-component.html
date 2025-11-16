@@ -1,1 +1,3 @@
-<p>todos-component works!</p>
+@for (todo of todoItems(); track todo.id) {
+  <p>{{ todo.title }}</p>
+}
